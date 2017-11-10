@@ -32,7 +32,7 @@ C#
             }
  
 ## Method 3
-Using foreach non-lazy coding (staticaly typed) as follows:
+Using foreach non-lazy coding (statically typed) as follows:
 
 C#
 
