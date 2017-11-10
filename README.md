@@ -12,6 +12,7 @@ Dictionary<int, string> profilingDictionary;
 Using old-school for loop as follows:
 
 C#
+
         for (int i = 0; i < profilingDictionary.Count; i++ ) 
             { 
                 int key = i; 
@@ -22,6 +23,7 @@ C#
 Using foreach lazy coding as follows:
 
 C#
+
         foreach (var entry in profilingDictionary) 
             { 
                 int key = entry.Key; 
@@ -33,6 +35,7 @@ C#
 Using foreach non-lazy coding (staticaly typed) as follows:
 
 C#
+
         foreach (KeyValuePair<int, string> entry in profilingDictionary) 
             { 
                 int key = entry.Key; 
