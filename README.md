@@ -2,7 +2,7 @@
 
 This program evaluates the performance of three different ways of iterating over a Dictionary in C#.
 
-# The Three Different Method of Iterating Over Dictionary
+# The Three Different Methods of Iterating Over Dictionary
 First, let's assume that the Dictionary variable is as follows:
 
 C#
